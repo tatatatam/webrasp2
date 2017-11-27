@@ -16,16 +16,16 @@
     <div class="w3-top">
     <div class="w3-row w3-padding w3-black">
     <div class="w3-col s3">
-        <a href="/webrasp/main.html" class="w3-button w3-block w3-black">HOME</a>
+        <a href="/webrasp/main.html" class="w3-button w3-block w3-black">หน้าหลัก</a>
     </div>
     <div class="w3-col s3">
-        <a href="/webrasp/water.php" class="w3-button w3-block w3-black">ABOUT</a>
+        <a href="/webrasp/water.php" class="w3-button w3-block w3-black">รดน้ำต้นไม้</a>
     </div>
     <div class="w3-col s3">
-        <a href="/webrasp/table.php" class="w3-button w3-block w3-black">MENU</a>
+        <a href="/webrasp/table.php" class="w3-button w3-block w3-black">ตารางรดน้ำ</a>
     </div>
     <div class="w3-col s3">
-        <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+        <a href="/webrasp/instruction.php" class="w3-button w3-block w3-black">คำแนะนำ</a>
     </div>
     </div>
     </div>

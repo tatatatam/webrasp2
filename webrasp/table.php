@@ -15,21 +15,23 @@
 <body>
 
     <h1>Plant Watering Project</h1>
-<div class="w3-top">
-  <div class="w3-row w3-padding w3-black">
+    <div class ="row">
+    <div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
     <div class="w3-col s3">
-      <a href="/webrasp/main.html" class="w3-button w3-block w3-black">HOME</a>
+        <a href="/webrasp/main.html" class="w3-button w3-block w3-black">หน้าหลัก</a>
     </div>
     <div class="w3-col s3">
-      <a href="/webrasp/water.php" class="w3-button w3-block w3-black">ABOUT</a>
+        <a href="/webrasp/water.php" class="w3-button w3-block w3-black">หน้าต่างรดน้ำต้นไม้</a>
     </div>
     <div class="w3-col s3">
-      <a href="/webrasp/table.php" class="w3-button w3-block w3-black">MENU</a>
+        <a href="/webrasp/table.php" class="w3-button w3-block w3-black">หน้าต่างแสดงค่า</a>
     </div>
     <div class="w3-col s3">
-      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+        <a href="/webrasp/instruction.php" class="w3-button w3-block w3-black">คำแนะนำ</a>
     </div>
-  </div>
+    </div>
+    </div>
 </div>
     <!-- <div  class="col-sm">
         <a class ="btn btn-primary" href="/water.php" role="button">Home</a><br>
@@ -68,12 +70,7 @@
             "lengthChange":false,
             
             "ajax": 'querywater.php',
-            // "columns":[
-               
-            //     {"data":'water'},
-            //     {"data":'timecontrol'},
-            //     {"data":'updatetime'}
-            // ],
+     
             "columnDefs": [
                 { "name": "Water",  "data":"water", "targets": 0 },
                 { "name": "Time", "data":'timecontrol', "targets": 1 },
