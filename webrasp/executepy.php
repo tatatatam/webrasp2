@@ -1,9 +1,12 @@
 <?php
     include("config.php");
 
-    // $input = $_POST["data"];
-    // $input ="py executor.py"; 
-    // $output = shell_exec($input);
+    $get = $_POST["data"];
+    $input1 = $get;
+    $input ="py executor.py ".$get; 
+    $output = shell_exec($input);
+    $str = "py executor2.py";
+    $input2 = shell_exec($str);
     // echo $output."hees";
     // echo 
     $input1 = "2";
