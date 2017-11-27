@@ -22,13 +22,13 @@
         <a href="/webrasp/main.html" class="w3-button w3-block w3-black">หน้าหลัก</a>
     </div>
     <div class="w3-col s3">
-        <a href="/webrasp/water.php" class="w3-button w3-block w3-black">หน้าต่างรดน้ำต้นไม้</a>
+        <a href="/webrasp/water.php" class="w3-button w3-block w3-black">รดน้ำต้นไม้</a>
     </div>
     <div class="w3-col s3">
-        <a href="/webrasp/table.php" class="w3-button w3-block w3-black">หน้าต่างแสดงค่า</a>
+        <a href="/webrasp/table.php" class="w3-button w3-block w3-black">ประวัติการรดน้ำ</a>
     </div>
     <div class="w3-col s3">
-        <a href="/webrasp/instruction.php" class="w3-button w3-block w3-black">คำแนะนำ</a>
+        <a href="/webrasp/instruction.php" class="w3-button w3-block w3-black">วิธีการใช้งาน</a>
     </div>
     </div>
     </div>
@@ -72,9 +72,9 @@
             "ajax": 'querywater.php',
      
             "columnDefs": [
-                { "name": "Water",  "data":"water", "targets": 0 },
-                { "name": "Time", "data":'timecontrol', "targets": 1 },
-                { "name": "TimeStamp", "data":'updatetime',"targets": 2 }
+                { "title": "Water",  "data":"water", "targets": 0 },
+                { "title": "Time", "data":'timecontrol', "targets": 1 },
+                { "title": "TimeStamp", "data":'updatetime',"targets": 2 }
                 
             ]
         } );

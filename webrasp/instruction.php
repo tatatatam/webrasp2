@@ -25,10 +25,10 @@
         <a href="/webrasp/water.php" class="w3-button w3-block w3-black">รดน้ำต้นไม้</a>
     </div>
     <div class="w3-col s3">
-        <a href="/webrasp/table.php" class="w3-button w3-block w3-black">ตารางรดน้ำ</a>
+        <a href="/webrasp/table.php" class="w3-button w3-block w3-black">ประวัติการรดน้ำ</a>
     </div>
     <div class="w3-col s3">
-        <a href="/webrasp/instruction.php" class="w3-button w3-block w3-black">คำแนะนำ</a>
+        <a href="/webrasp/instruction.php" class="w3-button w3-block w3-black">วิธีการใช้งาน</a>
     </div>
     </div>
     </div>
@@ -36,7 +36,7 @@
 <div class="container" align="center">
     <!-- <div class="row"> -->
         <div class="row-sm">
-        <h4> คำแนะนำ </h4><br><br>
+        <h4> วิธีการใช้งาน </h4><br><br>
             <p>1.ไปหน้าที่รดน้ำต้นไม้</p><br>
             <p>2. เลือกระยะเวลาที่ต้องการ</p><br>
             <p>3. ไปที่หน้าแสดงผล</p><br>

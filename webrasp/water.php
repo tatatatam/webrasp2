@@ -13,28 +13,28 @@
 </head>
 <body>
 <div class ="row">
-    <div class="w3-top">
-    <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3">
-        <a href="/webrasp/main.html" class="w3-button w3-block w3-black">หน้าหลัก</a>
-    </div>
-    <div class="w3-col s3">
-        <a href="/webrasp/water.php" class="w3-button w3-block w3-black">รดน้ำต้นไม้</a>
-    </div>
-    <div class="w3-col s3">
-        <a href="/webrasp/table.php" class="w3-button w3-block w3-black">ตารางรดน้ำ</a>
-    </div>
-    <div class="w3-col s3">
-        <a href="/webrasp/instruction.php" class="w3-button w3-block w3-black">คำแนะนำ</a>
-    </div>
-    </div>
-    </div>
+<div class="w3-top">
+<div class="w3-row w3-padding w3-black">
+<div class="w3-col s3">
+    <a href="/webrasp/main.html" class="w3-button w3-block w3-black">หน้าหลัก</a>
+</div>
+<div class="w3-col s3">
+    <a href="/webrasp/water.php" class="w3-button w3-block w3-black">รดน้ำต้นไม้</a>
+</div>
+<div class="w3-col s3">
+    <a href="/webrasp/table.php" class="w3-button w3-block w3-black">ประวัติการรดน้ำ</a>
+</div>
+<div class="w3-col s3">
+    <a href="/webrasp/instruction.php" class="w3-button w3-block w3-black">วิธีการใช้งาน</a>
+</div>
+</div>
+</div>
 </div>
     <div class ="row">
         <div class="container">
         <div class="col-sm" align ="center" >
             <!-- <input id="valueinsert" value="" > --><br><br><br><br>
-            <h4> กำหนดเวลาที่ต้องการลดน้ำต้นไม้</h4>
+            <h4> กำหนดเวลาที่ต้องการรดน้ำต้นไม้</h4>
             <input type="text" id="textInput" style="text-align:center;" value="50" size="6" disabled> s
             <input type="range" onchange="updateTextInput(this.value)" id="valueinsert" min="0" max="100" />
             
@@ -76,7 +76,7 @@
         console.log("hellogg");
         $("#validate").click(function(){
             $("#myModal").modal("show");
-            $("#modalmsg").text("กำลังจะลดน้ำที่เป็นเวลา "+$("#valueinsert").val()+" s");
+            $("#modalmsg").text("กำลังจะรดน้ำที่เป็นเวลา "+$("#valueinsert").val()+" s");
             // $(this).hide();
         });
         $("#accept").click(function(){
